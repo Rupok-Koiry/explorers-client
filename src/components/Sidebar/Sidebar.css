@@ -1,0 +1,22 @@
+.sidebar {
+  position: absolute;
+  top: 112%;
+  background-color: #f7f7f7;
+  padding: 60px 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+}
+
+.sidebar li:not(:last-child) {
+  margin-bottom: 12px;
+}
+.sidebar li a {
+  color: #55c57a;
+  text-decoration: underline !important;
+}
+@media screen and (max-width: 1850px) {
+  .sidebar {
+    position: initial;
+    text-align: center;
+  }
+}

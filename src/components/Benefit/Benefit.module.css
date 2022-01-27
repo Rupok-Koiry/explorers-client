@@ -1,0 +1,43 @@
+.benefit {
+  background: #f4f8fb;
+  padding: 60px 0;
+  margin-bottom: 60px;
+}
+
+.benefit__content p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+
+.benefit__item {
+  margin-bottom: 40px;
+}
+
+.benefit__item h4 {
+  color: #444;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.benefit__item h4 svg {
+  fill: #7dd56f;
+  font-size: 28px;
+  margin-right: 6px;
+}
+
+.benefit__item p {
+  margin-bottom: 0;
+}
+
+.benefit__pic__item {
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 20px;
+}
+
+.benefit__pic__item img {
+  min-width: 100%;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
