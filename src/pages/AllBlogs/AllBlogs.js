@@ -6,14 +6,14 @@ const AllBlogs = () => {
   const [phones, setPhones] = useState([]);
   //Load all phones
   useEffect(() => {
-    const loadPhones = async () => {
+    const loadBlogs = async () => {
       const response = await fetch(
         'https://frozen-citadel-34677.herokuapp.com/blog'
       );
       const responseData = await response.json();
       setPhones(responseData.data);
     };
-    loadPhones();
+    loadBlogs();
   }, []);
   return (
     <section className="smartphones my-5">

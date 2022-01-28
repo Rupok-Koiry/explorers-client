@@ -76,6 +76,15 @@ const Header = () => {
                 exact
                 as={NavLink}
                 activeClassName={classes.active}
+                to="/compare"
+              >
+                Compare
+              </Nav.Link>
+              <Nav.Link
+                eventKey="2"
+                exact
+                as={NavLink}
+                activeClassName={classes.active}
                 to="/contact"
               >
                 Contact

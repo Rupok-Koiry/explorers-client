@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./Contact.module.css";
+import React from 'react';
+import classes from './Contact.module.css';
 
 const Contact = () => {
   //Contact
@@ -9,26 +9,26 @@ const Contact = () => {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div>
-              <h2 className="section-title">Get in touch</h2>
+              <h2 className="section-heading">Get in touch</h2>
             </div>
           </div>
         </div>
         {/* Contact info */}
         <div className="row">
           <div className="col-lg-4 col-md-5">
-            <div className={classes["contact-info"]}>
+            <div className={classes['contact-info']}>
               <h3>For any queries and support</h3>
-              <div className={classes["contact-info-item"]}>
+              <div className={classes['contact-info-item']}>
                 <i className="fas fa-location-arrow"></i>
                 <h4>Location</h4>
                 <p>Modhubagh,Moghbazar, Dhaka-1217</p>
               </div>
-              <div className={classes["contact-info-item"]}>
+              <div className={classes['contact-info-item']}>
                 <i className="fas fa-envelope"></i>
                 <h4>Write to us at</h4>
                 <p>koiry.rupok@gmail.com</p>
               </div>
-              <div className={classes["contact-info-item"]}>
+              <div className={classes['contact-info-item']}>
                 <i className="fas fa-phone"></i>
                 <h4>Call us on</h4>
                 <p>01719032457</p>
@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
           {/* Contact form */}
           <div className="col-lg-8 col-md-7">
-            <div className={classes["contact-form"]}>
+            <div className={classes['contact-form']}>
               <form action="">
                 <div className="row">
                   <div className="col-lg-6">

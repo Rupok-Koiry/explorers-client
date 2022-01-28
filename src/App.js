@@ -16,6 +16,7 @@ import NotFound from './pages/NotFound/NotFound';
 import AdminRoute from './components/AdminRoute';
 import AddBlog from './components/AddBlog/AddBlog';
 import Contact from './pages/Contact/Contact';
+import Compare from './pages/Compare/Compare';
 
 const App = () => {
   const { user } = useContext(AuthContext);
@@ -32,10 +33,13 @@ const App = () => {
           <Route path="/blogs">
             <AllBlogs />
           </Route>
-
+          <Route path="/compare">
+            <Compare />
+          </Route>
           <Route path="/contact">
             <Contact />
           </Route>
+
           <PrivateRoute path="/tours/:tourId">
             <TourDetails />
           </PrivateRoute>

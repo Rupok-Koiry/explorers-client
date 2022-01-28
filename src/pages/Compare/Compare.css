@@ -1,0 +1,18 @@
+.compare ul {
+  padding-left: 0;
+}
+.compare .compare-table {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  align-items: center;
+  padding: 16px 32px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 8px;
+}
+.compare-table li ul li {
+  margin: 20px 0;
+}
+.rating-icon {
+  color: #f15d30;
+}

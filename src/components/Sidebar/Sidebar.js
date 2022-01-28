@@ -21,6 +21,8 @@ const Sidebar = () => {
         {bestSpots.map((spot) => {
           return (
             <li>
+              {/* <img src={spot.imageCover} alt="" width="20" />
+              <br /> */}
               <Link to={`/tours/${spot._id}`}>{spot.title}</Link>
             </li>
           );
